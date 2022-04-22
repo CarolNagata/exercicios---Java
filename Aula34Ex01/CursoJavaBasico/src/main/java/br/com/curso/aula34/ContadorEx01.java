@@ -1,0 +1,19 @@
+package br.com.curso.aula34;
+
+public class ContadorEx01 {
+
+	static int cont;
+	
+	public static void incrementar() {
+		cont++;
+	}
+	
+	public static void zerar() {
+		cont = 0;
+	}
+	
+	public static int obterValor() {
+		return cont;
+	}
+	
+}
